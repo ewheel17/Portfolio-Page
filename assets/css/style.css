@@ -1,0 +1,41 @@
+body {
+    font-family: "Lato";
+    background-color: white;
+}
+
+header {
+    background-color: #00999e !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    font-family: "Lato";
+}
+
+.headImage {
+    height:300px;
+    border-radius: 50%;
+}
+
+.port-img {
+    
+}
+
+#theNav, #theCopy {
+    background-color: #410064;
+}
+
+.space-back {
+    background-color: #00999e;
+}
+.space-text {
+    color: #410064;
+}
+
+.nav-link {
+    color: white;
+}
+
+a:hover {
+    color:white;
+}

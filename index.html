@@ -6,9 +6,14 @@
     <meta name="author" content="Max Wheeler">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Max Wheeler</title>
+    <link rel="shortcut icon" href="assets/images/favicon.jpg">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
 </head>
 
 <!-- To-Do List: -->
@@ -18,24 +23,24 @@
 <body id="page-top">
 
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-primary" id="theNav">
+    <nav class="navbar navbar-expand-lg fixed-top space-back" id="theNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger text-white" href="#page-top">Max Wheeler</a>
-            <button class="navbar-toggler navbar-toggler-right text-uppercase bg-dark text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fa fa-bars"></i>
-            </button>
+            <a class="navbar-brand text-white" href="#page-top"><h1>Max Wheeler</h1></a>
+                <button class="navbar-toggler navbar-toggler-right bg-light rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    Menu
+                </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <!-- Info not showing up because the href's are not yet set. -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-2 px-0 px-lg-2 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+                        <a class="nav-link py-2 px-0 px-lg-2 rounded js-scroll-trigger" href="#portfolio"><h3>Portfolio</h3></a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-2 px-0 px-lg-2 rounded js-scroll-trigger" href="#about">About</a>
+                        <a class="nav-link py-2 px-0 px-lg-2 rounded js-scroll-trigger" href="#about"><h3>About</h3></a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-2 px-0 px-lg-2 rounded js-scroll-trigger" href="#contact">Contact</a>
+                        <a class="nav-link py-2 px-0 px-lg-2 rounded js-scroll-trigger" href="#contact"><h3>Contact</h3></a>
                     </li>
                 </ul>
             </div>
@@ -45,40 +50,184 @@
 
 
     <!-- Header -->
-    <header></header>
+    <header class="jumbotron text-white text-center my-5">
+        <div class="container">
+            <img class="img-fluid mb-4 mx-auto headImage" src="assets/images/Prof_pic.jpg" alt="Picture of Me">
+            <h1>Welcome to my Website</h1>
+            <hr>
+            <h2>Full-Stack Developer by day, Biochemist by night</h2>
+        </div>
+    </header>
 
 
 
     <!-- Portfolio Content -->
-    <section id="portfolio"></section>
+    <section id="portfolio">
+        <div class="container text-center space-text pb-5">
+            <h1>Portfolio</h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4  ">
+                    <a class="mx-auto">
+                        <img class="img-fluid" src="assets/images/place_hold.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <a class="mx-auto">
+                        <img class="img-fluid" src="assets/images/place_hold.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <a class="mx-auto">
+                        <img class="img-fluid" src="assets/images/place_hold.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <a class="mx-auto">
+                        <img class="img-fluid" src="assets/images/place_hold.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <a class="mx-auto">
+                        <img class="img-fluid" src="assets/images/place_hold.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <a class="mx-auto">
+                        <img class="img-fluid" src="assets/images/place_hold.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
     <!-- About Me -->
-    <section id="about"></section>
+    <section class="space-back text-white py-5" id="about">
+        <div class="container text-center">
+            <h1>About</h1>
+            <hr>
+            <div class="row">
+                <div class="col-lg-5 mr-auto">
+                    <p>
+                        Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in faucibus orci luctus et 
+                        ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+                         Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                    </p>
+                </div>
+                <div class="col-lg-5 mr-auto">
+                    <p>
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget 
+                        tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur aliquet quam id dui posuere blandit. 
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus 
+                        et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
 
     <!-- Contact Me -->
-    <section id="contact"></section>
+    <section class="py-5" id="contact">
+        <div class="container text-center space-text">
+            <h1>Contact Me</h1>
+            <hr>
+            <div class="row text-left">
+                <div class="col-lg-8">
+                    <form id="contactInfo">
+                        <div class="form-group">
+                            <label for="userName">Name</label>
+                            <input type="email" class="form-control" id="userName" placeholder="" required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="userEmail">Email address</label>
+                            <input type="email" class="form-control" id="userEmail" placeholder="" required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="userEmail">Phone Number</label>
+                            <input type="email" class="form-control" id="userEmail" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="" required="true" data-validation-required-message="Please enter a message."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn space-back text-white btn-xl" id="sendMsg">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
 
     <!-- Location and Professional Links -->
-    <section></section>
+    <footer class="space-back text-white py-5" id="theFoot">
+        <div class="container">
+            <div class="row justify-content-around text-center">
+                <div class="col-5-md">
+                    <h1>Location</h1>
+                    <p>Salt Lake City, UT</p>
+                </div>
+                <div class="col-5-md">
+                    <h1>Check Me Out Elsewhere</h1>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light text-center rounded-circle" href="#">
+                                
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light text-center rounded-circle" href="#">
+                                
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light text-center rounded-circle" href="#">
+                                
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light text-center rounded-circle" href="#">
+                                
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light text-center rounded-circle" href="#">
+                                
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
 
-    <!-- Copyright Footer -->
-    <footer></footer>
+    <!-- Copyright -->
+    <div class="copyright py-4 text-center text-white" id="theCopy">
+        <div class="container">
+            <small>Copyright &copy; Max Wheeler 2018</small>
+        </div>
+    </div>
 
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="assets/javascript/app.js"></script>
+
+    <!-- Use this for scrolling -->
+    <script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
     
 </body>
 </html>
