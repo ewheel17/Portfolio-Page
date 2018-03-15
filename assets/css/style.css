@@ -8,7 +8,7 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
+    font-weight: 400;
     font-family: "Lato";
 }
 
@@ -31,6 +31,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
     color: white;
+}
+
+.nav-item:hover {
+    cursor:pointer;
+}
+
+hr.style0 {
+    border: 0;
+    height: 4px;
+    width: 70%;
+    background: white;
+}
+
+hr.style1 {
+    border: 0;
+    height: 4px;
+    background: white;
+}
+
+hr.style2 {
+    border: 0;
+    height: 4px;
+    background: #410064;
 }
 
 a:hover {
