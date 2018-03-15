@@ -59,3 +59,11 @@ hr.style2 {
 a:hover {
     color:white;
 }
+
+#portTab:hover, #aboutTab:hover, #contactTab:hover {
+    background: #00999e;
+}
+
+#navTop {
+    cursor: pointer;
+}
