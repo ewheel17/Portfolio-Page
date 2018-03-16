@@ -6,7 +6,7 @@ $("#navTop").click(function() {
 
 $("#portTab").click(function() {
     $('html, body').animate({
-        scrollTop: $("#portfolio").offset().top - 100
+        scrollTop: $("#portfolio").offset().top - 130
     }, 800);
 });
 
