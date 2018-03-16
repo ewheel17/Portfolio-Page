@@ -233,22 +233,20 @@
                     <form method="POST" action="https://formspree.io/geiger1717@gmail.com" name="sentMessage" id="contactInfo" novalidate="novalidate">
                         <div class="form-group">
                             <label for="userName"><h5>Name</h5></label>
-                            <input type="text" class="form-control" id="userName" placeholder="" required="true" data-validation-required-message="Please enter your name.">
+                            <input type="text" class="form-control" name="userName" required="true" data-validation-required-message="Please enter your name.">
                         </div>
                         <div class="form-group">
                             <label for="userEmail"><h5>Email Address</h5></label>
-                            <input type="email" class="form-control" id="userEmail" placeholder="" required="true" data-validation-required-message="Please enter your email address.">
+                            <input type="email" class="form-control" name="userEmail" required="true" data-validation-required-message="Please enter your email address.">
                         </div>
                         <div class="form-group">
                             <label for="userEmail"><h5>Phone Number</h5></label>
-                            <input type="tel" class="form-control" id="userPhone" placeholder="" required="true" data-validation-required-message="Please enter your phone number.">
+                            <input type="tel" class="form-control" name="userPhone" required="true" data-validation-required-message="Please enter your phone number.">
                         </div>
                         <div class="form-group">
                             <label><h5>Message</h5></label>
-                            <textarea class="form-control" id="message" rows="5" placeholder="" required="true" data-validation-required-message="Please enter a message."></textarea>
-                            <p class="help-block text-danger"></p>
+                            <textarea class="form-control" name="message" rows="5" required="true" data-validation-required-message="Please enter a message."></textarea>
                         </div>
-                        <div id="success"></div>
                         <div class="form-group">
                             <button type="submit" class="btn space-back text-white btn-xl" id="sendMsg">Send</button>
                         </div>
