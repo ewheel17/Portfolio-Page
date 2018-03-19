@@ -64,6 +64,11 @@ a:hover {
     color: #410064;
 }
 
+.border {
+    border-width: 2px !important;
+    border-color: #410064 !important;
+}
+
 #portTab:hover, #aboutTab:hover, #contactTab:hover {
     background: #00999e;
 }
