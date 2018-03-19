@@ -57,7 +57,11 @@ hr.style2 {
 }
 
 a:hover {
-    color:white;
+    color:#410064;
+}
+
+.portfolioTag {
+    color: #410064;
 }
 
 #portTab:hover, #aboutTab:hover, #contactTab:hover {
@@ -66,6 +70,10 @@ a:hover {
 
 #navTop {
     cursor: pointer;
+}
+
+p {
+    text-indent: 10px;
 }
 
 /* Contact Modal */
