@@ -1,0 +1,105 @@
+body {
+    font-family: "Lato";
+    background-color: white;
+}
+
+header {
+    background-color: rgb(172, 171, 171) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+.headImage {
+    height:300px;
+    border-radius: 50%;
+}
+
+
+#theNav, #theCopy {
+    background-color: rgb(3, 3, 59);
+}
+
+.space-back {
+    background-color: rgb(172, 171, 171);
+}
+.space-text {
+    color: rgb(92, 90, 90);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-item:hover {
+    cursor:pointer;
+}
+
+hr.style0 {
+    border: 0;
+    height: 4px;
+    width: 70%;
+    background: rgb(3, 3, 59);
+}
+
+hr.style1 {
+    border: 0;
+    height: 4px;
+    width:20%;
+    margin-top:0;
+    margin-bottom:30px;
+    background: rgb(3, 3, 59);
+}
+
+hr.style2 {
+    border: 0;
+    height: 4px;
+    width:20%;
+    margin-top:0;
+    margin-bottom:30px;
+    background: rgb(92, 90, 90);
+}
+
+hr.style3 {
+    border: 0;
+    height: 4px;
+    width:70%;
+    margin-top:0;
+    margin-bottom:30px;
+    background: rgb(3, 3, 59);
+}
+
+a:hover {
+    color:rgb(3, 3, 59);
+    text-decoration: none;
+}
+
+.portfolioTag {
+    color: rgb(3, 3, 59);
+}
+
+.border {
+    border-width: 2px !important;
+    border-color: rgb(3, 3, 59) !important;
+}
+
+#portTab:hover, #aboutTab:hover, #contactTab:hover {
+    background: rgb(172, 171, 171);
+    color:rgb(3, 3, 59);
+}
+
+#navTop {
+    cursor: pointer;
+}
+
+p {
+    text-indent: 10px;
+}
+
+.blueText {
+    color: rgb(3, 3, 59);
+}
+
+/* Contact Modal */
